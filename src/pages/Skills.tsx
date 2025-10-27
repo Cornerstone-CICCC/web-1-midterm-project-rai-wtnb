@@ -5,7 +5,22 @@ const qaItems: QAItem[] = [
   {
     id: "langs",
     question: "Which languages do you use?",
-    answer: <></>,
+    answer: (
+      <>
+        <p>
+          I can use only{" "}
+          <a
+            href="https://go.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-main"
+          >
+            Go
+          </a>
+          .
+        </p>
+      </>
+    ),
   },
   {
     id: "tools",

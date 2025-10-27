@@ -18,7 +18,7 @@ export function Sidebar({ onNavigate }: SidebarProps) {
             <NavLink
               to={item.to}
               className={({ isActive }) =>
-                `block px-4 py-2 rounded transition-colors ${
+                `block py-2 rounded transition-colors ${
                   isActive
                     ? "bg-main/20 text-main"
                     : "text-light/80 hover:text-light"
