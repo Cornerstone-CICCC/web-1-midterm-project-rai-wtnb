@@ -8,8 +8,8 @@ type SidebarProps = {
 export function Sidebar({ onNavigate }: SidebarProps) {
   return (
     <nav className="h-full flex flex-col">
-      <div className="flex items-center justify-between px-4 h-16 border-b border-light/10">
-        <span className="text-lg font-semibold">Rai</span>
+      <div className="flex items-center px-4 h-16 border-b border-light/10">
+        <img src="icon.png" alt="icon" className="w-10 h-10" />
       </div>
 
       <ul className="p-3 space-y-1 overflow-y-auto">

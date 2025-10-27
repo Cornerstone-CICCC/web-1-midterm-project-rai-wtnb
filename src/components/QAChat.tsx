@@ -162,7 +162,7 @@ export function QAChat({ items }: QAChatProps) {
   return (
     <div className="space-y-4">
       {/* Chat area */}
-      <section className="min-h-72 p-4">
+      <section className="min-h-72">
         <div className="space-y-3">
           {messages.map((m) => {
             const isAssistant = m.role !== "user"; // assistant or thinking
