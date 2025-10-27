@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand: #454545;
+  --color-dark: #121212;
+  --color-light: #fafafa;
+  --color-gray: #171717;
+  --color-main: #4b8f99;
+  --color-salmon: #d4827b;
+}
+
+@keyframes pulseDots {
+  0%,
+  60%,
+  100% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+.thinking-dots::after {
+  content: "...";
+  display: inline-block;
+  animation: pulseDots 1s infinite steps(3, end);
+}
