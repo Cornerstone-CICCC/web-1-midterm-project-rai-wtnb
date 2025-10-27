@@ -56,12 +56,24 @@ const qaItems: QAItem[] = [
   {
     id: "featured",
     question: "What is your featured project?",
-    answer: <></>,
-  },
-  {
-    id: "stack",
-    question: "Which tech do you prefer for web apps?",
-    answer: <></>,
+    answer: (
+      <>
+        <p>
+          Built and maintained a property-data import pipeline with CronJobs,
+          Cloud Tasks, Cloud Spanner, and Elasticsearch that processes 5M+
+          records daily for{" "}
+          <a
+            href="https://web.canary-app.jp/chintai/tokyo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-main"
+          >
+            Canary
+          </a>
+          .
+        </p>
+      </>
+    ),
   },
 ];
 

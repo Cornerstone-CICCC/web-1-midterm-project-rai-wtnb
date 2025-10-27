@@ -46,21 +46,22 @@ const qaItems: QAItem[] = [
           1. Refactoring code effectively
         </h2>
         <p>
-          I'm learning about how to refactor code effectively. I'm reading the
-          books:
+          Recently, I'm dealing with the refactoring of entire codebase of our
+          service.
         </p>
+        <p>
+          So I'm relearning about DDD and how to design a system effectively.
+        </p>
+        <p>I'm reading the books:</p>
         <ul className="list-disc pl-4">
           <li>
-            <p>
-              "Refactoring: Improving the Design of Existing Code" by Martin
-              Fowler
-            </p>
+            <p>"Tydy First?" by Kent Beck</p>
           </li>
           <li>
-            <p>"Clean Code" by Robert C. Martin</p>
+            <p>"Clean Architecture" by Robert C. Martin</p>
           </li>
           <li>
-            <p>"Refactoring to Patterns" by Joshua Kerievsky</p>
+            <p>"Learning Domain-Driven Design" by Vlad Khononov</p>
           </li>
         </ul>
         {/* 2 */}
